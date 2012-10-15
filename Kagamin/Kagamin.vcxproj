@@ -75,6 +75,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shape.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AffineTransformation.h" />
+    <ClInclude Include="BBox.h" />
+    <ClInclude Include="BRDF.h" />
+    <ClInclude Include="Intersection.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Primitive.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Ray.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

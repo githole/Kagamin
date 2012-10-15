@@ -1,22 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="ソース ファイル">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="ヘッダー ファイル">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="リソース ファイル">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{d944198c-1da2-446e-84e9-631b54086c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Geometry">
+      <UniqueIdentifier>{299b6e91-3dad-48d8-b2a5-d6668ed1ad7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Primitive">
+      <UniqueIdentifier>{bdf7b4c2-5e1b-4848-b544-e17101d3b633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Primitive\Shapes">
+      <UniqueIdentifier>{471271c3-4a38-47de-9188-336d13efd948}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Lib\Primitive</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Random.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Lib\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Lib\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Lib\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>Lib\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Lib\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="BBox.h">
+      <Filter>Lib\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Lib\Primitive\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="AffineTransformation.h">
+      <Filter>Lib\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Lib\Geometry</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
