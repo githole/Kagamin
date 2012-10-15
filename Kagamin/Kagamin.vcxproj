@@ -78,7 +78,6 @@
     <ClCompile Include="Shape.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AffineTransformation.h" />
     <ClInclude Include="BBox.h" />
     <ClInclude Include="BRDF.h" />
     <ClInclude Include="Intersection.h" />
@@ -87,8 +86,10 @@
     <ClInclude Include="Primitive.h" />
     <ClInclude Include="Random.h" />
     <ClInclude Include="Ray.h" />
+    <ClInclude Include="Sampler.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Transformation.h" />
     <ClInclude Include="Utility.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>

@@ -3,7 +3,7 @@
 #include "Ray.h"
 #include "Sphere.h"
 #include "Matrix.h"
-#include "AffineTransformation.h"
+#include "Transformation.h"
 
 int main(int argc, char **argv) {
 	std::cout << "Physically Based Renderer: Kagamin" << std::endl;

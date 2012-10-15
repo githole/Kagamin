@@ -68,11 +68,14 @@
     <ClInclude Include="BRDF.h">
       <Filter>Lib</Filter>
     </ClInclude>
-    <ClInclude Include="AffineTransformation.h">
-      <Filter>Lib\Primitive</Filter>
-    </ClInclude>
     <ClInclude Include="Matrix.h">
       <Filter>Lib\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>Lib</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
